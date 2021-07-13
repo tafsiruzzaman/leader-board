@@ -4,6 +4,52 @@
 body{
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+}
+.nav-content{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.logo-name{
+    color: white;
+    padding-left: 10px;
+    font-size: 24px;
+}
+.links-profile{
+    display: flex;
+    align-items: center;
+}
+.links-profile span a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.links-profile span a:hover{
+    color: pink;
+}
+.links-profile span img{
+    width: 51px;
+    height: 51px;
+}
+.nav-padd{
+    margin-left: 30px;
 }
 main{
     display: flex;
